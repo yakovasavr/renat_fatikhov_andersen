@@ -19,3 +19,4 @@ func main() {
 	arr := []int{1, 2, 3, 4, 2}
 	fmt.Println(containsDuplicate(arr))
 }
+
