@@ -39,6 +39,6 @@ func findDuplicate(nums []int) int {
 }
 
 func main(){
-	arr := []int{4, 1, 3, 4}
+	arr := []int{4, 4, 4, 4}
 	fmt.Println(findDuplicate(arr))
 }
