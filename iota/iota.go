@@ -10,7 +10,8 @@ const (
 )
 
 func sliceChange(sl []int) {
-	sl = append(sl, 5)
+	// sl = append(sl, 5)
+	sl[0] = 4
 }
 
 func sliceChangePointer(sl *[]int) {
@@ -21,6 +22,7 @@ func sliceChangePointer(sl *[]int) {
 func main() {
 	fmt.Println(A, C, D, B)
 	a := []int{1, 2, 3, 4}
+	fmt.Println(a)
 	sliceChange(a)
 	fmt.Println(a, cap(a), &a[0])
 	sliceChangePointer(&a)
